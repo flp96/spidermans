@@ -31,6 +31,13 @@
   justify-content: center;
 }
 
+.navigator ul li a.active {
+  background-color: white;
+  color: var(--primary-color);
+  border: 0.1875rem solid var(--primary-color);
+  outline: 0.125rem solid white;
+}
+
 .navigator::before {
   content: '';
   position: absolute;
@@ -45,8 +52,7 @@
   z-index: 1;
 }
 
-.navigator ul li a:hover,
-.navigator ul li a.active {
+.navigator ul li a:hover {
   color: var(--primary-color);
   background-color: white;
 }
