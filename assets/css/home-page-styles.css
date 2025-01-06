@@ -148,6 +148,11 @@ body::before {
   outline: 0.125rem solid white;
 }
 
+.s-card--active {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
 .s-controller__line {
   background-color: white;
   width: 50%;
